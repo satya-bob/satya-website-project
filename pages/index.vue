@@ -5,10 +5,10 @@
       <p class="text-lg mb-8">This is the home page of our website.</p>
       
       <div class="grid grid-cols-1 gap-4 sm:grid-cols-3">
-        <NuxtLink to="/posts" class="button">Posts</NuxtLink>
-        <NuxtLink to="/weather" class="button">Weather</NuxtLink>
-        <NuxtLink to="/products" class="button">Products</NuxtLink>
-        <NuxtLink to="/news" class="button">News Feed</NuxtLink>
+        <NuxtLink to="/posts" class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300">Posts</NuxtLink>
+        <NuxtLink to="/weather" class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300">Weather</NuxtLink>
+        <NuxtLink to="/products" class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300">Products</NuxtLink>
+        <NuxtLink to="/news" class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300">News Feed</NuxtLink>
       </div>
     </div>
   </div>
@@ -27,24 +27,7 @@ h1,p{
   transform: translateY(-2px); /* Move the link slightly upward on hover */
 }
 
-/* Custom button styles */
-.button {
-  padding: 1rem 2rem;
-  border-radius: 0.5rem;
-  background-color: #2c5282; /* Dark blue */
-  color: white;
-  text-decoration: none;
-  display: inline-block;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
-  border: 2px solid #2c5282; /* Border color */
-}
 
-.button:hover {
-  background-color: #1a365d; /* Darker blue on hover */
-  transform: translateY(-2px); /* Move the button slightly upward on hover */
-  border-color: #1a365d; /* Darker border color on hover */
-}
 </style>
 
 
